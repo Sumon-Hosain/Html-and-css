@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+}
+/*by id
+#p1{color:beige;}
+#p2{color:rgb(240, 255, 255);}
+#p3{ color: antiquewhite;}
+#h1{color:aliceblue}
+*/
+
+/* by class*/
+.p1{color:aliceblue}
+.h1{color:aliceblue}
+.p2{color: aqua;}
+.p3{color:aquamarine}
+.p4{color:bisque}

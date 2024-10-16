@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="index.php" method="post" enctype="multipart/form-data">
+        <label for="Username">Username:</label>
+        <input type="text" id="Username" 
+        required placeholder="Example-Devid" minlength="6" maxlength="15">
+        
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" placeholder="Example-@gjeoek22#"required minlength="6" maxlength="20" id="password">
+        
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" required placeholder="devid@gmail.com">
+        <br>
+
+        <label for="Phone">Phone Number:</label>
+        <input type="tel" id="Phone" placeholder="123-456-8975" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+        
+        <br>
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday"><br>
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity">
+        <br>
+        <label for="Product_lsit">Product lsit:</label>
+        <label for="product">Product1</label>
+        <input type="radio" id="product" name="same_group">
+        <label for="product">Product2</label>
+        <input type="radio" id="product" name="same_group">
+
+        
+        <br>
+        <label for="Gender">Gender-</label>
+        <select name="Same_type" id="Gender">
+            <option value="1">Select Gender</option>
+            <option value="Mr.">Mr.</option>
+            <option value="Ms.">Ms.</option>
+            <option value="PhD">PhD</option>
+        </select>
+        <br>
+        <label for="Payment">Payment:</label>
+        <select name="" id="Payment">
+            <option vlaue="1">Select payment method</option>
+            <option value="Visa">Visa</option>
+            <option value="Bkash">Bkash</option>
+            <option value="Nogod">Nogod</option>
+        </select><br>
+        <label for="Agree">I am agrree</label>
+        <input type="checkbox" name="" id="Agree"><br>
+        <label for="Comment">Comment:</label>
+        <textarea name="" id="Comment" rows="1" cols="20"></textarea><br>
+        <label for="file">Chose a file:</label>
+        <input type="file" name="" id="file" accept="image/png,image/jpeg"><br>
+
+        <input type="Submit" required><br>
+
+    </form>>
+
+</body>
+</html>

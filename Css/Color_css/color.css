@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(101, 80, 186);  /* rgb value*/
+}
+p{
+    color:tomato;                        /*name*/
+}
+p2{
+    color:rgb(6, 14, 10);              
+}
+p3{
+    color:#cfd2e7;                         /*hexadecimal-code*/
+}
+p4{
+    color:hsla(108, 96%, 47%, 0.815)        /*hsla*/
+}

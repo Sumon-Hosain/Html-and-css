@@ -1,0 +1,14 @@
+span{
+    background-color: hsl(82, 86%, 48%);
+    height: 100px;
+    width:100px;
+    display:inline;
+    visibility:inherit;
+}
+div{
+    background-color:Red;
+    height:100px;
+    width:100px;
+    display:inline;
+    visibility:hidden;
+}

@@ -1,9 +1,9 @@
 h1{
-    text-shadow:1px 3px 3px hsl(86, 97%, 26%), -1px -3px -3px hsl(14, 79%, 65%);
+    text-shadow:1px 3px 3px hsl(86, 97%, 26%), -1px -3px 3px hsl(14, 79%, 65%);
 }
 #box1{
     height:100px;
     width:100px;
     background-color: rgb(244, 234, 255);
-    box-shadow: 3px 3px 5px red , -1px -2px -2px yellowgreen;
+    box-shadow: 3px 3px 5px red , -1px -2px 2px yellowgreen;
 }

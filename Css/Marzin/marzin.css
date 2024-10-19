@@ -1,0 +1,21 @@
+body{
+    margin:0px;
+}
+.same{
+    border:5px solid red;
+    font-size:5em;
+    width:250px;
+    height:250px
+}
+#box1{
+    background-color: hsla(9, 87%, 56%, 0.849);
+    margin-bottom:10px;
+    margin-top:5px;
+    margin-left:10px;
+
+}
+#box2{
+    background-color:green;
+    margin:auto
+    
+}

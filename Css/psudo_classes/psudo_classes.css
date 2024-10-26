@@ -1,0 +1,20 @@
+a:link{
+   color:rgb(0, 255, 128);
+   font-size:90%;
+}
+a:hover{
+    color:blue;
+    font-size:1.1em;
+}
+a:active{
+    color:rgb(179, 3, 3);
+    font-size:1.2em;
+}
+.Main p{
+    background-color:red;
+    display:none;
+
+}
+.Main:hover p{
+    display:inline;  
+} 

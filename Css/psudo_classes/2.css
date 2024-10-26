@@ -1,0 +1,9 @@
+h1:hover{
+    background-color:rgba(255, 110, 110, 0.877);
+}
+h1:not(:hover){
+    background-color: black;
+}
+h1:nth-child(odd){
+    background-color:red;
+}

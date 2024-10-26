@@ -1,0 +1,19 @@
+#Container{
+    border:2px solid;
+}
+/*adjacent -selector h1*/
+#Container h1{
+    color:blue;
+}
+/*Child - selector<p */
+#Container>h1{
+     color:red
+}
+/*adjacent sibling*/
+#Container+h1{
+    color:blueviolet;
+}
+/*general sibling*/
+#Container~h1{
+    color:aqua;
+}
